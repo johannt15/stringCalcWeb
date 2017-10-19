@@ -2,7 +2,7 @@ Software Engineering (C-T-303-HUGB), Week 10 Fall Semester 2017
 
 # Continuous Integration with Travis & Heroku
 ## This repo
-Status: \<Add Travis Status Badge\>
+Status: [![Build Status](https://travis-ci.org/johannt15/stringCalcWeb)](https://travis-ci.org/johannt15/stringCalcWeb)
 
 Is a very simple Spark Web application, built with Gradle.
 
@@ -29,7 +29,7 @@ The objective is that the students experiment with setting up a continuous integ
     1. Create a `.travis.yml` file in the root of the project. If you are unsure about what to put in this file, or what it is used for, go read a bit on Java projects in Travis CI, [docs.travis-ci.com/](http://docs.travis-ci.com/user/languages/java/).
     2. Add the new file, but don't commit yet.
     3. Add a build badge into the top of a README.md file
-        * This should be something like: `[![Build Status](your travis url for the repo here.png)](your travis url for the repo here)`
+        * This should be something like: '[![Build Status](your travis url for the repo here.png)](your travis url for the repo here)`
         * Add some information to the README file.
     4. Add the new README.md, commit and push.
 4. If everything went OK, you should see something happening. In Github (the badge) and on Travis CI.
